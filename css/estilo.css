@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+main{
+    background-color: #fff;
+}
+
+h1{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color: #F2F2F2;
+}
+
+input{
+    color: white;
+    padding: 5px;
+}
+
+h2{
+    margin: 10px;
+}
+
+#informacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+    padding: 10px;
+}
+
+#botoes{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+}
+
+#botoes a{
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #DA9379;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#botoes a:hover{
+    background-color: #dbb660;
+}
+
+#conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#detalhes1{
+    background-color: #CB8D00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#detalhes1 p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#detalhes1 img{
+    margin-bottom: 10px;
+    width: 16%;
+}
+
+#detalhes2{
+    background-color: #DA9379;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.barra{
+    background-color: #CB8D00;
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+::placeholder{
+    color: #CB8D00;
+    transition: 0.5s;
+    padding: 0px;
+    width: 0px;
+    font-size: 15px;
+}
+
+label:hover > ::placeholder{
+    width: 60px;
+    padding: 10px;
+    color: #dbb660;
+}
+
+.botao{
+    height: 10px;
+}
+
+
+.detalhes{
+    background-color: #CB8D00;
+    height: 40px;
+    width: 100%;
+}
+
+.detalhes1{
+    background-color: #747A52;
+    height: 40px;
+    width: 100%;
+}
+
+.itens, .banner, .grupos, .maravilhas, .paises, .pesquisa, label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.teste{
+    margin-left: 440px;
+    margin-top: -50px;
+}
+
+.pacotes{
+    padding: 20px;
+}
+
+.grupos{
+    background-color: #ebeaea;
+    margin-top: 15px;
+}
+
+.maravilhas{
+    background-color: #ebeaea;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -15px;
+}
+
+.maravilhas p{
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+
+.paco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.intercambio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+}
+
+.intercambio p{
+    color: black;
+    text-align: justify;
+}
+
+
+
+
+
+
+.logo img{
+    width: 200px;
+}
+
+.opcoes img{
+    width: 40px;
+}
+
+.pacotes img{
+    width: 200px;
+}
+
+.teste img{
+    width: 7%;
+    padding: 10px;
+}
+
+.banner img{
+    width: 1096px;
+    margin-top: 15px;
+}
+
+.grupos img{
+    width: 400px;
+    padding: 35px;
+}
+
+.brasil img{
+    height: 300px;
+    padding: 10px;
+    margin-top: -90px;
+}
+
+.brasil{
+    margin-top: 35px;
+}
+
+.mara img{
+    height: 300px;
+    margin: 25px;
+}
+
+.destinos img{
+    width: 300px;
+    margin: -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intercambio img{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.pesquisa img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+.itens img:hover, header img:hover, footer img:hover, #detalhes2 img:hover, .grupos img:hover, .maravilhas img:hover, .paco img:hover, .intercambio:hover{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1); 
+    transition: 0.2s;
+}
+
+
+
